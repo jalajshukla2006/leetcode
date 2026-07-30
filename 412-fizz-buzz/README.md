@@ -58,3 +58,38 @@ Output: ["1","2","Fizz","4","Buzz","Fizz","7","8","Fizz","Buzz","11","Fizz","13"
 | Test cases | 8 / 8 |
 
 Solution: [`412-fizz-buzz.cpp`](./412-fizz-buzz.cpp)
+
+
+### Followed a new way of string concatination and while loop
+
+```cpp
+
+
+class Solution {
+public:
+    vector<string> fizzBuzz(int n) {
+        vector<string> res;
+        //res.reserve(n); // Optimization: Pre-allocate memory to avoid resizing
+        int i = 1;
+        while ( i <= n ) {
+            string current_str = "";
+            
+            if (i % 3 == 0) {
+                current_str += "Fizz";
+            }
+            if (i % 5 == 0) {
+                current_str += "Buzz";
+            }
+            if (current_str.empty()) {
+                current_str = to_string(i);
+            }
+            
+            res.push_back(current_str);
+            i++;
+        }
+        
+        return res;
+    }
+};
+
+```
