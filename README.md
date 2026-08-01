@@ -1,11 +1,12 @@
 # Problems Archive
 
-_10 problems solved · last updated 2026-08-01 20:46 IST_
+_11 problems solved · last updated 2026-08-01 21:07 IST_
 
 ## By Date
 
 | Date | # | Title | Difficulty | Topics | Submission |
 |---|---|---|---|---|---|
+| 2026-08-01 21:05 IST | 1342 | [Number of Steps to Reduce a Number to Zero](./1342-number-of-steps-to-reduce-a-number-to-zero/README.md) | Easy | Math, Bit Manipulation | `2090215528` |
 | 2026-08-01 20:40 IST | 2413 | [Smallest Even Multiple](./2413-smallest-even-multiple/README.md) | Easy | Math, Number Theory | `2090156211` |
 | 2026-07-29 05:14 UTC | 1295 | [Find Numbers with Even Number of Digits](./1295-find-numbers-with-even-number-of-digits/README.md) | Easy | Array, Math | `2085601506` |
 | 2026-07-29 04:17 UTC | 268 | [Missing Number](./268-missing-number/README.md) | Easy | Array, Hash Table, Math, Binary Search, Bit Manipulation, Sorting | `2085535667` |
@@ -36,6 +37,7 @@ _10 problems solved · last updated 2026-08-01 20:46 IST_
 - [136. Single Number](./136-single-number/README.md) — Easy
 - [231. Power of Two](./231-power-of-two/README.md) — Easy
 - [268. Missing Number](./268-missing-number/README.md) — Easy
+- [1342. Number of Steps to Reduce a Number to Zero](./1342-number-of-steps-to-reduce-a-number-to-zero/README.md) — Easy
 
 ### Hash Table
 
@@ -49,6 +51,7 @@ _10 problems solved · last updated 2026-08-01 20:46 IST_
 - [268. Missing Number](./268-missing-number/README.md) — Easy
 - [412. Fizz Buzz](./412-fizz-buzz/README.md) — Easy
 - [1295. Find Numbers with Even Number of Digits](./1295-find-numbers-with-even-number-of-digits/README.md) — Easy
+- [1342. Number of Steps to Reduce a Number to Zero](./1342-number-of-steps-to-reduce-a-number-to-zero/README.md) — Easy
 - [2413. Smallest Even Multiple](./2413-smallest-even-multiple/README.md) — Easy
 - [2469. Convert the Temperature](./2469-convert-the-temperature/README.md) — Easy
 
