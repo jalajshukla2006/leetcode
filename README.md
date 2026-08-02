@@ -1,11 +1,12 @@
 # Problems Archive
 
-_12 problems solved · last updated 2026-08-02 20:36 IST_
+_13 problems solved · last updated 2026-08-02 21:13 IST_
 
 ## By Date
 
 | Date | # | Title | Difficulty | Topics | Submission |
 |---|---|---|---|---|---|
+| 2026-08-02 21:12 IST | 2427 | [Number of Common Factors](./2427-number-of-common-factors/README.md) | Easy | Math, Enumeration, Number Theory | `2091555342` |
 | 2026-08-02 20:34 IST | 1281 | [Subtract the Product and Sum of Digits of an Integer](./1281-subtract-the-product-and-sum-of-digits-of-an-integer/README.md) | Easy | Math | `2091513072` |
 | 2026-08-01 21:05 IST | 1342 | [Number of Steps to Reduce a Number to Zero](./1342-number-of-steps-to-reduce-a-number-to-zero/README.md) | Easy | Math, Bit Manipulation | `2090215528` |
 | 2026-08-01 20:40 IST | 2413 | [Smallest Even Multiple](./2413-smallest-even-multiple/README.md) | Easy | Math, Number Theory | `2090156211` |
@@ -40,6 +41,10 @@ _12 problems solved · last updated 2026-08-02 20:36 IST_
 - [268. Missing Number](./268-missing-number/README.md) — Easy
 - [1342. Number of Steps to Reduce a Number to Zero](./1342-number-of-steps-to-reduce-a-number-to-zero/README.md) — Easy
 
+### Enumeration
+
+- [2427. Number of Common Factors](./2427-number-of-common-factors/README.md) — Easy
+
 ### Hash Table
 
 - [1. Two Sum](./1-two-sum/README.md) — Easy
@@ -55,11 +60,13 @@ _12 problems solved · last updated 2026-08-02 20:36 IST_
 - [1295. Find Numbers with Even Number of Digits](./1295-find-numbers-with-even-number-of-digits/README.md) — Easy
 - [1342. Number of Steps to Reduce a Number to Zero](./1342-number-of-steps-to-reduce-a-number-to-zero/README.md) — Easy
 - [2413. Smallest Even Multiple](./2413-smallest-even-multiple/README.md) — Easy
+- [2427. Number of Common Factors](./2427-number-of-common-factors/README.md) — Easy
 - [2469. Convert the Temperature](./2469-convert-the-temperature/README.md) — Easy
 
 ### Number Theory
 
 - [2413. Smallest Even Multiple](./2413-smallest-even-multiple/README.md) — Easy
+- [2427. Number of Common Factors](./2427-number-of-common-factors/README.md) — Easy
 
 ### Recursion
 
