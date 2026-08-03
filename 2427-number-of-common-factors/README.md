@@ -370,3 +370,102 @@ b divides a
 
   
 Solution: [`2427-number-of-common-factors.cpp`](./2427-number-of-common-factors.cpp)
+
+## New Approach Optimized !!
+In the above Solution I checked the each Number is divisible or not:
+> "Does it divide both numbers?"
+- This works, but imagine:
+```cpp
+a = 999983
+b = 999979
+
+int count=0;
+        int small = min(a,b);
+        int i=1;
+        while(i<= small){
+            if(a %i ==0 && b%i==0){
+                count = count+1;
+            }
+            i++;
+        }
+        
+        return count;
+
+It would perform almost one million checks.
+```
+
+```text
+Given:
+a
+b
+
+        │
+        ▼
+Find HCF (GCD)
+        │
+        ▼
+Suppose HCF = d
+        │
+        ▼
+Find all factors of d
+        │
+        ▼
+Count them
+
+```
+
+```cpp
+class Solution {
+public:
+    int commonFactors(int a, int b) {
+        int count=0;
+        int small = min(a,b);
+        int large = max(a,b);
+        while(small !=0){
+            int temp = large % small;
+            large = small;
+            small = temp;
+            // count = count + 1;
+           // cout <<"temp inner: "<< temp << endl;
+        }
+        // cout << "count : "<< count << endl;
+        // cout << "small : "<< small << endl;
+        // cout << "large : "<< large << endl;
+
+
+        /*
+        DRY RUN:
+
+        >>> 48%18
+            12
+        >>> 18%12
+            6
+        >>> 12%6
+            0 
+
+        */
+        /*
+        OUTPUT:
+        temp inner: 12
+        temp inner: 6
+        temp inner: 0
+        count : 3
+        small : 0
+        large : 6
+
+        */
+        // HCF = large
+
+        int i =1;
+        while (i <= large){
+            if(a % i ==0 && b % i ==0){
+                count = count +1;
+            }
+            i++;
+        }
+        // cout << "Count: "<< count << endl;
+        return count;
+    }
+    
+};
+```
