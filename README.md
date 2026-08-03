@@ -1,11 +1,12 @@
 # Problems Archive
 
-_13 problems solved · last updated 2026-08-02 21:13 IST_
+_14 problems solved · last updated 2026-08-03 19:39 IST_
 
 ## By Date
 
 | Date | # | Title | Difficulty | Topics | Submission |
 |---|---|---|---|---|---|
+| 2026-08-03 19:38 IST | 2520 | [Count the Digits That Divide a Number](./2520-count-the-digits-that-divide-a-number/README.md) | Easy | Math | `2092708846` |
 | 2026-08-02 21:12 IST | 2427 | [Number of Common Factors](./2427-number-of-common-factors/README.md) | Easy | Math, Enumeration, Number Theory | `2091555342` |
 | 2026-08-02 20:34 IST | 1281 | [Subtract the Product and Sum of Digits of an Integer](./1281-subtract-the-product-and-sum-of-digits-of-an-integer/README.md) | Easy | Math | `2091513072` |
 | 2026-08-01 21:05 IST | 1342 | [Number of Steps to Reduce a Number to Zero](./1342-number-of-steps-to-reduce-a-number-to-zero/README.md) | Easy | Math, Bit Manipulation | `2090215528` |
@@ -62,6 +63,7 @@ _13 problems solved · last updated 2026-08-02 21:13 IST_
 - [2413. Smallest Even Multiple](./2413-smallest-even-multiple/README.md) — Easy
 - [2427. Number of Common Factors](./2427-number-of-common-factors/README.md) — Easy
 - [2469. Convert the Temperature](./2469-convert-the-temperature/README.md) — Easy
+- [2520. Count the Digits That Divide a Number](./2520-count-the-digits-that-divide-a-number/README.md) — Easy
 
 ### Number Theory
 
